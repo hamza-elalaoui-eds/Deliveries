@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi6 car search engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="mi6-logo.png" alt="MI6 Logo" class="logo">
+        <div class="search-container">
+        <select id="search-key">
+            <option value="brand">Brand</option>
+            <option value="color">Color</option>
+            <option value="licensePlate">License Plate</option>
+        </select>
+        <input type="text" id="search-value" placeholder="Search..." />
+        <button id="search-btn">Search</button>
+    </div>
+    </header>
+    
+
+    <section id="car-results" class="car-results-container"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>

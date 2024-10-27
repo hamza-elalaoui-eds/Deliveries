@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+    
+    <main class="container">
+        <aside class="product-list">
+            <h2>Products</h2>
+            <div class="product" data-id="1">
+                <img src="item-1.png" alt="Classic Court" class="product-image">
+                <h3>Classic Court</h3>
+                <p class="price">$50.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="item-2.png" alt="Modern Sneakers" class="product-image">
+                <h3>Modern Sneakers</h3>
+                <p class="price">$75.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="item-3.jpg" alt="Sporty Shoes" class="product-image">
+                <h3>Sporty Shoes</h3>
+                <p class="price">$65.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </aside>
+
+        <section class="shopping-cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p class="total-sum">Total: $<span id="total-price">0.00</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shopping Cart Application</p>
+    </footer>
+
+    <script src="ex_08.js"></script>
+</body>
+</html>

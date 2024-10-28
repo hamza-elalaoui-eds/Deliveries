@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tutorial-item {
+    cursor: pointer;
+}
+
+img {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+audio, video {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}

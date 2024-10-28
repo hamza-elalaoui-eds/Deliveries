@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    width: 100px; /* Adjust width as necessary */
+    height: auto;
+    position: relative; /* Ensure image can move freely */
+}

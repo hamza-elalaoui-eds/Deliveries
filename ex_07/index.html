@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleporting Chuck Norris</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue@2"></script>
+</head>
+<body>
+    <div id="app" @mousemove="moveImage" style="height: 100vh; position: relative;">
+        <img :src="imageSrc" :style="imageStyle" alt="Chuck Norris" draggable="false" />
+    </div>
+    <script src="ex_07.js"></script>
+</body>
+</html>

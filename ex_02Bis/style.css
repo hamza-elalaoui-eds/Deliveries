@@ -1,0 +1,36 @@
+.map-container {
+    height: 600px;
+    width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.custom-icon {
+    text-align: center;
+}
+
+.custom-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-icon div {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.label-icon {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}

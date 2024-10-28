@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houdini Disappear with Name Parameter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Houdini Disappear</h1>
+    <p id="magic">This paragraph has the ID 'magic' and will disappear.</p>
+    <p class="magic">This paragraph has the class 'magic' and will disappear.</p>
+    <p class="notmagic">This paragraph hasn't the class 'magic' and will not disappear.</p>
+    <p class="magic">Another paragraph with the class 'magic' that will disappear.</p>
+    <button onclick="houdini('magic')">Disappear Elements by Name</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ex_04bis.js"></script>
+</body>
+</html>

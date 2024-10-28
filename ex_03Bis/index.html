@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Mode Example - First Tooltip on Load</title>
+    <!-- Link to Tippy CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tutorial Mode Example - First Tooltip on Load</h1>
+
+    <div class="container">
+        <img src="test.png" alt="Image" class="tutorial-item" data-tippy-content="This is an image.">
+        <div class="square tutorial-item" data-tippy-content="This is a square."></div>
+
+        <div class="audio-wrapper tutorial-item" data-tippy-content="This is a sound.">
+            <audio controls>
+                <source src="https://file-examples.com/storage/fe94284e0d671f66ba031e8/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <button class="tutorial-item" data-tippy-content="This is a button.">Click Me</button>
+        <video controls width="300" class="tutorial-item" data-tippy-content="This is a video.">
+            <source src="https://file-examples.com/storage/fe94284e0d671f66ba031e8/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Link to Tippy JS -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="ex_03bis.js"></script>
+</body>
+</html>

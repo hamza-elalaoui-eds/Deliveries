@@ -1,0 +1,3 @@
+function houdini() {
+    $('p').fadeOut();
+}

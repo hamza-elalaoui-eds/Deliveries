@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#carpet {
+    width: 300px;
+    height: 300px;
+}
+
+.square {
+    background-color: #007bff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner {
+    width: 33.33%;
+    height: 33.33%;
+}
+
+.middle {
+    background-color: white;
+}
